@@ -6,16 +6,10 @@ publishDir: docs
 
 params:
   hero:
-    tagline: Hugo Fresh theme
-    subTagline: An adaptation of the gorgeous Fresh landing page starter from CSS Ninja
-    buttonText: Click here
+    tagline: Mouton
+    subTagline: The world's easiest presentation builder.
+    buttonText: Build your own!
     image: illustrations/worker.svg
-    bottomIcons:
-    - logos/clients/systek.svg
-    - logos/clients/tribe.svg
-    - logos/clients/kromo.svg
-    - logos/clients/infinite.svg
-    - logos/clients/gutwork.svg
   navbar:
     buttonText: Sign up
     logo:
@@ -26,47 +20,41 @@ params:
       url: /
     - text: Pricing
       url: /
-    - text: Dropdown
-      dropdown: true
-      links:
-      - Dropdown item 1
-      - Dropdown item 2
-      - Dropdown item 3
   features:
-    tagline: Great power comes with great Responsibility
-    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    tagline: Presentations nowadays are dull and monotonous.
+    subTagline: Let's change that! We are building a web-based editor to unleash your creativity and your desire to make the best presentations ever.
     panels:
-    - title: Online App builder
-      image: illustrations/icons/mouse-globe.svg
-      text: This is some explanatory text that is on two rows
+    - title: Online Web Environment
+      image: illustrations/icons/laptop-globe.svg
+      text: Create astonishing slides with web technologies.
       button:
-        text: Free Trial
+        text: Learn More
         url: /
       delay: 1
-    - title: Cloud deployment
-      image: illustrations/icons/laptop-cloud.svg
-      text: This is some explanatory text that is on two rows
+    - title: Present everywhere.
+      image: illustrations/icons/mouse-globe.svg
+      text: Create once, show everywhere.
       button:
-        text: Free Trial
+        text: Learn More
         url: /
       delay: 2
-    - title: Pluggable tools
+    - title: Responsive plugins
       image: illustrations/icons/plug-cloud.svg
-      text: This is some explanatory text that is on two rows
+      text: Featuring the latest web innovations!
       button:
-        text: Free Trial
+        text: Learn More
         url: /
       delay: 3
   sellingPoints:
-    tagline: You're here because you want the best
+    tagline: Content first. Audience second. Presenter third.
     points:
-    - title: Powerful and unified interface
+    - title: Content first
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: laptop-globe
-    - title: Cross device Synchronisation
+    - title: Audience second
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: doc-sync
-    - title: Nomad System
+    - title: Presenter third
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   platform:
@@ -75,7 +63,7 @@ params:
     subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     buttonText: Get Started
   clients:
-    tagline: Our Clients love us!
+    tagline: Presenter third
     subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clientExamples:
     - name: Irma Walters
